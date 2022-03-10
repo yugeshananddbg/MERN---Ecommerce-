@@ -1,0 +1,82 @@
+.header {
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 3%,
+    rgba(121, 60, 9, 1) 18%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin-bottom: 60px;
+  z-index: 100;
+  margin-top: 0;
+  position: fixed;
+}
+.header:hover {
+  box-shadow: 2px 2px 4px #000000;
+}
+.headerLogo {
+  width: 80px;
+  height: 80px;
+
+  margin-bottom: 4px;
+  margin-top: 18px;
+  object-fit: contain;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.headerSearch {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+.headerSearch:hover {
+  box-shadow: 2px 2px 4px #000000;
+}
+.headerSearchInput {
+  height: 30px;
+
+  border: none;
+  width: 100%;
+}
+.headerSearchIcon {
+  padding: 5px;
+  color: white;
+  height: 25px !important;
+  border-radius: 5px;
+  background-color: #000000;
+  cursor: pointer;
+}
+.headerSearchIcon:hover {
+  box-shadow: 2px 2px 4px #000000;
+}
+.headerNav {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.headerOption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.headerOption:hover {
+  color: #0af51e;
+  text-shadow: 2px 2px 4px #000000;
+  cursor: pointer;
+}
+.headerOptionLine1 {
+  font-size: 10px;
+}
+.headerOptionLine2 {
+  font-size: 13px;
+  font-weight: 800;
+}
